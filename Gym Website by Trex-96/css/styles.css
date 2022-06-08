@@ -1,0 +1,146 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+
+
+h1{
+    font-size: 5rem;
+    line-height: 6.4rem;
+    color: #222;
+
+}
+
+h2 ,#product1 h2 {
+    font-size: 4.6rem;
+    line-height: 5.%;
+    color: #222;
+}
+
+h4{
+    font-size: 2rem;
+    color: #222;
+}
+
+h6{
+    font-weight:700;
+    font: size 1.2rem;;
+}
+
+#hero p{
+    font-size: 4rem;
+    color: #fff;
+    margin: 1.5rem 0 1rem 0;
+    padding: 0.3125rem;
+    text-align: center;
+}
+
+.section-p1{
+    padding: 4rem 8rem;
+}
+
+.section-m1{
+    margin: 4rem 0;
+}
+
+button.normal {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem 3rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    border: none;
+    outline:none;
+    transition: 0.2s ease;
+}
+
+button.white {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 1.1rem 1.8rem;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline:none;
+    transition: 0.2s ease;
+}
+
+body{
+    width:100%;
+}
+#hero{            
+    background-image:url("https://source.unsplash.com/1600x900/?gym");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 8rem;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+#hero h4{
+    padding-bottom: 1.5rem;
+}
+
+#hero h1{
+    color:#088178;
+    text-align: center;
+    padding: 2rem;
+    font-size: 8rem;
+    
+}
+
+#hero button{
+    background-color:#088178;
+    border-radius: 8px;
+    color: #fff;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    transform: translate(-50,-50);
+    border: 0;
+    padding: 1.4rem 8rem 1.4rem 6.5rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#hero button:hover{
+    background-color: #fff;
+    color: #088178;
+}
+
+#hero h4 h1 button{
+    text-align: right;
+}
+
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}

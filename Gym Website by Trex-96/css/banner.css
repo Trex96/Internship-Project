@@ -1,0 +1,38 @@
+#size img{
+    width: 50;
+    height: auto;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://source.unsplash.com/1600x900/?fitness");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color:#fff;
+    font-size:30px;
+    font-family: 'Monoton', cursive;
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+}
+
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}

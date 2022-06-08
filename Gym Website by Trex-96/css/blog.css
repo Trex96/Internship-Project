@@ -1,0 +1,109 @@
+
+
+#blog{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#blog .blog-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url("../img/blog/hate.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}  
+
+#blog .blog-box2{
+    background-image: url("../img/blog/consi.jpg");
+    font-family: 'Covered By Your Grace', cursive
+}
+
+#blog h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#blog h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#blog .blog-box2 span{
+    color: rgb(135, 128, 128);
+    text-shadow: #088178;
+    border: #088178;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-family:  'Press Start 2P', cursive;
+}
+
+#blog span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-family: 'Great Vibes', cursive;;
+}
+
+#blog .blog-box:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
+
+}
+
+#blog3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#blog3 .blog-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../img/blog/lov.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#blog3 .blog-box2{
+    background-image: url("../img/blog/box.jpg");
+}
+
+#blog3 .blog-box3{
+    background-image: url("../img/blog/did.jpg");
+}
+
+#blog3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#blog3 h3{
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: 'Covered By Your Grace', cursive
+}
+#blog3 .blog-box h3.font{
+    font-size: 12px;
+}
+
