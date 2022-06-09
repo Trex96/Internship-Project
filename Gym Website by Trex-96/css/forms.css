@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;   
+    background-image: url("https://source.unsplash.com/1600x900/?workout");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.look{
+    margin: 10rem;
+    font-size: large;
+    background-color: rgb(237, 237, 235);
+    border-radius: 6px;
+    justify-content: center;
+
+
+}
+
+.lower{
+    margin: 20px;
+    padding-bottom: 10px;
+
+}
+
+
+
+input[type="text"],
+input[type="email"],
+select,textarea{
+    width: 95%;
+    padding: 6px;
+    font-size:20px ;
+}
+
+
+
+.grind {
+    color: #cbd5f0;
+    padding: 20px;
+    border: 1px solid rgb(3, 66, 35);
+    border-radius: 5px; 
+    background-color: #194f92;
+}
+
+input[type="submit"]{
+    width: 35%;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #4cb266;
+    height: 100%;
+}
+
+input[type="submit"]:hover{
+    color: #fff;
+    background-color: rgb(109, 223, 56);
+}
+
+
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+    html{
+        font-size:45%;
+    }
+}
+@media (max-width:486px) {
+    html{
+        font-size:15%;
+    }
+}
